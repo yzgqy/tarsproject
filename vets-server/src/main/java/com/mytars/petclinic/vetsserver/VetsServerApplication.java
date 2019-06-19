@@ -9,7 +9,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 @SpringBootApplication
 @EnableConfigurationProperties(VetsProperties.class)
 @EnableTarsServer
-//@EnableTarsConfiguration
 public class VetsServerApplication {
 
     public static void main(String[] args) {

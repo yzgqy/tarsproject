@@ -12,7 +12,6 @@ module Customers
 	    1 optional string name = "";
 	    2 optional string birthDate = "";
 	    3 optional PetType petType = null;
-	    4 optional Owner owner = null;
 	}
 
     struct Owner

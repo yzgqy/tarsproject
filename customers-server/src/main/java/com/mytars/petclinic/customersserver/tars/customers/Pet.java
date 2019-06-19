@@ -21,8 +21,6 @@ public class Pet {
 	public String birthDate = "";
 	@TarsStructProperty(order = 3, isRequire = false)
 	public PetType petType = null;
-	@TarsStructProperty(order = 4, isRequire = false)
-	public Owner owner = null;
 
 	public int getId() {
 		return id;
@@ -56,23 +54,14 @@ public class Pet {
 		this.petType = petType;
 	}
 
-	public Owner getOwner() {
-		return owner;
-	}
-
-	public void setOwner(Owner owner) {
-		this.owner = owner;
-	}
-
 	public Pet() {
 	}
 
-	public Pet(int id, String name, String birthDate, PetType petType, Owner owner) {
+	public Pet(int id, String name, String birthDate, PetType petType) {
 		this.id = id;
 		this.name = name;
 		this.birthDate = birthDate;
 		this.petType = petType;
-		this.owner = owner;
 	}
 
 	@Override
@@ -83,7 +72,6 @@ public class Pet {
 		result = prime * result + TarsUtil.hashCode(name);
 		result = prime * result + TarsUtil.hashCode(birthDate);
 		result = prime * result + TarsUtil.hashCode(petType);
-		result = prime * result + TarsUtil.hashCode(owner);
 		return result;
 	}
 
@@ -103,8 +91,7 @@ public class Pet {
 			TarsUtil.equals(id, other.id) &&
 			TarsUtil.equals(name, other.name) &&
 			TarsUtil.equals(birthDate, other.birthDate) &&
-			TarsUtil.equals(petType, other.petType) &&
-			TarsUtil.equals(owner, other.owner) 
+			TarsUtil.equals(petType, other.petType) 
 		);
 	}
 
@@ -119,18 +106,11 @@ public class Pet {
 		if (null != petType) {
 			_os.write(petType, 3);
 		}
-		if (null != owner) {
-			_os.write(owner, 4);
-		}
 	}
 
 	static PetType cache_petType;
 	static { 
 		cache_petType = new PetType();
-	}
-	static Owner cache_owner;
-	static { 
-		cache_owner = new Owner();
 	}
 
 	public void readFrom(TarsInputStream _is) {
@@ -138,7 +118,6 @@ public class Pet {
 		this.name = _is.readString(1, false);
 		this.birthDate = _is.readString(2, false);
 		this.petType = (PetType) _is.read(cache_petType, 3, false);
-		this.owner = (Owner) _is.read(cache_owner, 4, false);
 	}
 
 }
