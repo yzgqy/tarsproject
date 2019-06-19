@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    active: production
+  cache:
+    cache-names: vets
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    schema: classpath*:db/hsqldb/schema.sql
+    data: classpath*:db/hsqldb/data.sql
+
+vets:
+  cache:
+    ttl: 10
+    heap-size: 10
+
+
+#eureka:
+#  client: #客户端注册进eureka服务列表内
+#    service-url:
+#      defaultZone: http://localhost:7001/eureka
+##      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+#  instance:
+#    instance-id: microservicecloud-dept8001
+#    prefer-ip-address: true     #访问路径可以显示IP地址
+#
+#tars:
+#  server:
+#    port: 18601
+#    application: VetsApp
+#    server-name: VetsServer
+#    log-path: /Users/yaya/Desktop/tarsproject/logs/vets/log
+#    data-path: /Users/yaya/Desktop/tarsproject/logs/vets/data
+#  client:
+#    async-invoke-timeout: 10000

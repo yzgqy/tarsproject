@@ -1,0 +1,22 @@
+module Visits
+{
+	struct Visit
+	{
+    	0 optional int id = 0;
+    	1 optional string date = "";
+    	2 optional string description = "";
+    	3 optional int petId = 0;
+	}
+	struct Visits
+	{
+	    0 optional vector<Visit> items =null;
+	}
+
+	interface VisitResource
+    {
+    	Visit create(Visit visit,int petId)
+    	vector<Visit> visits(int petId)
+    	Visits visitsMultiGet(vector<int> petIds)
+
+    }
+}

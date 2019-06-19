@@ -1,0 +1,21 @@
+module Vets
+{
+	struct Vet
+	{
+    	0 optional int id = 0;
+    	1 optional string firstName = "";
+    	2 optional string lastName = "";
+    	3 optional vector<Specialty> specialties = null;
+	}
+
+	struct Specialty
+	{
+    	0 optional int id = 0;
+    	1 optional string name = "";
+	}
+
+	interface VetResource
+    {
+    	vector<Vet> showResourcesVetList()
+    }
+}

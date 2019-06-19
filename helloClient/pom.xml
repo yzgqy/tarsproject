@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.mytars</groupId>
+  <artifactId>helloClient</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging>
+
+  <name>helloClient Maven Webapp</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.tencent.tars/tars-client -->
+    <dependency>
+      <groupId>com.tencent.tars</groupId>
+      <artifactId>tars-client</artifactId>
+      <version>1.6.1</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>helloClient</finalName>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+        <plugin>
+          <groupId>com.tencent.tars</groupId>
+          <artifactId>tars-maven-plugin</artifactId>
+          <version>1.6.1</version>
+          <configuration>
+            <tars2JavaConfig>
+              <!-- tars文件位置 -->
+              <tarsFiles>
+                <tarsFile>${basedir}/src/main/resources/customers.tars</tarsFile>
+              </tarsFiles>
+              <!-- 源文件编码 -->
+              <tarsFileCharset>UTF-8</tarsFileCharset>
+              <!-- 生成服务端代码 -->
+              <servant>false</servant>
+              <!-- 生成源代码编码 -->
+              <charset>UTF-8</charset>
+              <!-- 生成的源代码目录 -->
+              <srcPath>${basedir}/src/main/java</srcPath>
+              <!-- 生成源代码包前缀 -->
+              <packagePrefixName>com.mytars.client.</packagePrefixName>
+            </tars2JavaConfig>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>

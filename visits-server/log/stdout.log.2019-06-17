@@ -1,0 +1,302 @@
+2019-06-17 22:42:31.944	INFO	  .   ____          _            __ _ _
+2019-06-17 22:42:31.944	INFO	 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2019-06-17 22:42:31.944	INFO	( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2019-06-17 22:42:31.944	INFO	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2019-06-17 22:42:31.944	INFO	  '  |____| .__|_| |_|_| |_\__, | / / / /
+2019-06-17 22:42:31.944	INFO	 =========|_|==============|___/=/_/_/_/
+2019-06-17 22:42:31.945	INFO	[32m :: Spring Boot :: [39m      [2m (v2.0.3.RELEASE)[0;39m
+2019-06-17 22:42:42.204	INFO	[2m2019-06-17 22:42:42.202[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.v.VisitsServerApplication         [0;39m [2m:[0;39m Starting VisitsServerApplication on promote.cache-dns.local with PID 5493 (/Users/yaya/Desktop/tarsproject/visits-server/target/classes started by yaya in /Users/yaya/Desktop/tarsproject/visits-server)
+
+2019-06-17 22:42:42.205	INFO	[2m2019-06-17 22:42:42.204[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.v.VisitsServerApplication         [0;39m [2m:[0;39m The following profiles are active: production
+
+2019-06-17 22:42:42.237	INFO	[2m2019-06-17 22:42:42.237[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bf7ca37: startup date [Mon Jun 17 22:42:42 CST 2019]; root of context hierarchy
+
+2019-06-17 22:42:43.214	INFO	[2m2019-06-17 22:42:43.214[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$610a9cf3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-17 22:42:43.252	INFO	[2m2019-06-17 22:42:43.252[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'com.qq.tars.spring.TarsManageServiceConfiguration' of type [com.qq.tars.spring.TarsManageServiceConfiguration$$EnhancerBySpringCGLIB$$3b3220ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-17 22:42:43.262	INFO	[2m2019-06-17 22:42:43.262[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'communicator' of type [com.qq.tars.client.Communicator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-17 22:42:43.401	INFO	[TARS] http server start at 8080
+2019-06-17 22:42:43.501	INFO	[2m2019-06-17 22:42:43.501[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+
+2019-06-17 22:42:43.522	INFO	[2m2019-06-17 22:42:43.522[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+
+2019-06-17 22:42:43.522	INFO	[2m2019-06-17 22:42:43.522[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet Engine: Apache Tomcat/8.5.31
+
+2019-06-17 22:42:43.526	INFO	[2m2019-06-17 22:42:43.526[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yaya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+
+2019-06-17 22:42:43.631	INFO	[2m2019-06-17 22:42:43.631[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+
+2019-06-17 22:42:43.631	INFO	[2m2019-06-17 22:42:43.631[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1397 ms
+
+2019-06-17 22:42:44.15	INFO	[2m2019-06-17 22:42:44.014[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+
+2019-06-17 22:42:44.16	INFO	[2m2019-06-17 22:42:44.016[0;39m [33m WARN[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.util.DriverDataSource [0;39m [2m:[0;39m Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+
+2019-06-17 22:42:44.289	INFO	[2m2019-06-17 22:42:44.289[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+
+2019-06-17 22:42:44.294	INFO	[2m2019-06-17 22:42:44.294[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+
+2019-06-17 22:42:44.314	INFO	[2m2019-06-17 22:42:44.314[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executing SQL script from URL [file:/Users/yaya/Desktop/tarsproject/visits-server/target/classes/db/hsqldb/schema.sql]
+
+2019-06-17 22:42:44.318	INFO	[2m2019-06-17 22:42:44.318[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executed SQL script from URL [file:/Users/yaya/Desktop/tarsproject/visits-server/target/classes/db/hsqldb/schema.sql] in 4 ms.
+
+2019-06-17 22:42:44.319	INFO	[2m2019-06-17 22:42:44.319[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executing SQL script from URL [file:/Users/yaya/Desktop/tarsproject/visits-server/target/classes/db/hsqldb/data.sql]
+
+2019-06-17 22:42:44.321	INFO	[2m2019-06-17 22:42:44.321[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executed SQL script from URL [file:/Users/yaya/Desktop/tarsproject/visits-server/target/classes/db/hsqldb/data.sql] in 2 ms.
+
+2019-06-17 22:42:44.587	INFO	[2m2019-06-17 22:42:44.587[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.ServletRegistrationBean [0;39m [2m:[0;39m Servlet dispatcherServlet mapped to [/]
+
+2019-06-17 22:42:44.590	INFO	[2m2019-06-17 22:42:44.590[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2019-06-17 22:42:44.591	INFO	[2m2019-06-17 22:42:44.590[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+2019-06-17 22:42:44.591	INFO	[2m2019-06-17 22:42:44.591[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+2019-06-17 22:42:44.591	INFO	[2m2019-06-17 22:42:44.591[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'requestContextFilter' to: [/*]
+
+2019-06-17 22:42:44.591	INFO	[2m2019-06-17 22:42:44.591[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'httpTraceFilter' to: [/*]
+
+2019-06-17 22:42:44.591	INFO	[2m2019-06-17 22:42:44.591[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2019-06-17 22:42:44.695	INFO	[2m2019-06-17 22:42:44.694[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Building JPA container EntityManagerFactory for persistence unit 'default'
+
+2019-06-17 22:42:44.705	INFO	[2m2019-06-17 22:42:44.705[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-06-17 22:42:44.753	INFO	[2m2019-06-17 22:42:44.753[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate Core {5.2.17.Final}
+
+2019-06-17 22:42:44.754	INFO	[2m2019-06-17 22:42:44.754[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.cfg.Environment           [0;39m [2m:[0;39m HHH000206: hibernate.properties not found
+
+2019-06-17 22:42:44.780	INFO	[2m2019-06-17 22:42:44.780[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+
+2019-06-17 22:42:44.865	INFO	[2m2019-06-17 22:42:44.865[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+
+2019-06-17 22:42:45.215	INFO	[2m2019-06-17 22:42:45.215[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2019-06-17 22:42:45.558	INFO	[2m2019-06-17 22:42:45.558[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m [2m:[0;39m Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+2019-06-17 22:42:45.769	INFO	[2m2019-06-17 22:42:45.769[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerAdapter[0;39m [2m:[0;39m Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bf7ca37: startup date [Mon Jun 17 22:42:42 CST 2019]; root of context hierarchy
+
+2019-06-17 22:42:45.796	INFO	[2m2019-06-17 22:42:45.796[0;39m [33m WARN[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36maWebConfiguration$JpaWebMvcConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2019-06-17 22:42:45.825	INFO	[2m2019-06-17 22:42:45.825[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/owners/*/pets/{petId}/visits],methods=[POST]}" onto com.mytars.petclinic.visitsserver.model.Visit com.mytars.petclinic.visitsserver.web.VisitResource.create(com.mytars.petclinic.visitsserver.model.Visit,int)
+
+2019-06-17 22:42:45.826	INFO	[2m2019-06-17 22:42:45.826[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/pets/visits],methods=[GET]}" onto com.mytars.petclinic.visitsserver.web.VisitResource$Visits com.mytars.petclinic.visitsserver.web.VisitResource.visitsMultiGet(java.util.List<java.lang.Integer>)
+
+2019-06-17 22:42:45.827	INFO	[2m2019-06-17 22:42:45.827[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/owners/*/pets/{petId}/visits],methods=[GET]}" onto java.util.List<com.mytars.petclinic.visitsserver.model.Visit> com.mytars.petclinic.visitsserver.web.VisitResource.visits(int)
+
+2019-06-17 22:42:45.831	INFO	[2m2019-06-17 22:42:45.831[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+
+2019-06-17 22:42:45.831	INFO	[2m2019-06-17 22:42:45.831[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2019-06-17 22:42:45.863	INFO	[2m2019-06-17 22:42:45.863[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m [2m:[0;39m Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+2019-06-17 22:42:45.863	INFO	[2m2019-06-17 22:42:45.863[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m [2m:[0;39m Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+2019-06-17 22:42:46.236	INFO	[2m2019-06-17 22:42:46.236[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2019-06-17 22:42:46.245	INFO	[2m2019-06-17 22:42:46.245[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.b.a.e.w.s.WebMvcEndpointHandlerMapping[0;39m [2m:[0;39m Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+
+2019-06-17 22:42:46.245	INFO	[2m2019-06-17 22:42:46.245[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.b.a.e.w.s.WebMvcEndpointHandlerMapping[0;39m [2m:[0;39m Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+
+2019-06-17 22:42:46.246	INFO	[2m2019-06-17 22:42:46.246[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.b.a.e.w.s.WebMvcEndpointHandlerMapping[0;39m [2m:[0;39m Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2019-06-17 22:42:46.288	INFO	[2m2019-06-17 22:42:46.288[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.j.e.a.AnnotationMBeanExporter       [0;39m [2m:[0;39m Registering beans for JMX exposure on startup
+
+2019-06-17 22:42:46.289	INFO	[2m2019-06-17 22:42:46.289[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.j.e.a.AnnotationMBeanExporter       [0;39m [2m:[0;39m Bean with name 'dataSource' has been autodetected for JMX exposure
+
+2019-06-17 22:42:46.295	INFO	[2m2019-06-17 22:42:46.294[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.j.e.a.AnnotationMBeanExporter       [0;39m [2m:[0;39m Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+
+2019-06-17 22:42:46.298	INFO	[2m2019-06-17 22:42:46.298[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.c.support.DefaultLifecycleProcessor [0;39m [2m:[0;39m Starting beans in phase 0
+
+2019-06-17 22:42:46.321	INFO	[SERVER] server starting at tcp -h 127.0.0.1 -p 18600 -t 60000...
+2019-06-17 22:42:46.351	INFO	[SERVER] server started at tcp -h 127.0.0.1 -p 18600 -t 60000...
+2019-06-17 22:42:46.353	INFO	[SERVER] server starting at tcp -h 127.0.0.1 -p 18601 -t 3000...
+2019-06-17 22:42:46.353	INFO	[SERVER] server started at tcp -h 127.0.0.1 -p 18601 -t 3000...
+2019-06-17 22:42:46.356	INFO	[SERVER] The application started successfully.
+2019-06-17 22:42:46.357	INFO	MaxConnCount=200000
+2019-06-17 22:42:46.358	INFO	The session manager service started...
+2019-06-17 22:42:46.358	INFO	[SERVER] server is ready...
+2019-06-17 22:42:46.377	INFO	[2m2019-06-17 22:42:46.377[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+
+2019-06-17 22:42:46.381	INFO	[2m2019-06-17 22:42:46.381[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.v.VisitsServerApplication         [0;39m [2m:[0;39m Started VisitsServerApplication in 24.827 seconds (JVM running for 30.407)
+
+2019-06-17 22:42:46.461	INFO	[2m2019-06-17 22:42:46.460[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[on(8)-127.0.0.1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+2019-06-17 22:42:46.461	INFO	[2m2019-06-17 22:42:46.461[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[on(8)-127.0.0.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m FrameworkServlet 'dispatcherServlet': initialization started
+
+2019-06-17 22:42:46.475	INFO	[2m2019-06-17 22:42:46.475[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[on(8)-127.0.0.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+
+2019-06-17 22:51:27.594	INFO	onSessionCreated: 1
+2019-06-17 22:52:49.678	INFO	[2m2019-06-17 22:52:49.678[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[      Thread-54][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bf7ca37: startup date [Mon Jun 17 22:42:42 CST 2019]; root of context hierarchy
+
+2019-06-17 22:52:49.685	INFO	[2m2019-06-17 22:52:49.685[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[      Thread-54][0;39m [36mo.s.c.support.DefaultLifecycleProcessor [0;39m [2m:[0;39m Stopping beans in phase 0
+
+2019-06-17 22:53:19.691	INFO	[2m2019-06-17 22:53:19.691[0;39m [33m WARN[0;39m [35m5493[0;39m [2m---[0;39m [2m[      Thread-54][0;39m [36mo.s.c.support.DefaultLifecycleProcessor [0;39m [2m:[0;39m Failed to shut down 1 bean with phase value 0 within timeout of 30000: [applicationStartLifecycle]
+
+2019-06-17 22:53:19.693	INFO	[2m2019-06-17 22:53:19.693[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[      Thread-54][0;39m [36mo.s.j.e.a.AnnotationMBeanExporter       [0;39m [2m:[0;39m Unregistering JMX-exposed beans on shutdown
+
+2019-06-17 22:53:19.693	INFO	[2m2019-06-17 22:53:19.693[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[      Thread-54][0;39m [36mo.s.j.e.a.AnnotationMBeanExporter       [0;39m [2m:[0;39m Unregistering JMX-exposed beans
+
+2019-06-17 22:53:19.695	INFO	[2m2019-06-17 22:53:19.695[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[      Thread-54][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+
+2019-06-17 22:53:19.696	INFO	[2m2019-06-17 22:53:19.696[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[      Thread-54][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+
+2019-06-17 22:53:19.700	INFO	[2m2019-06-17 22:53:19.700[0;39m [32m INFO[0;39m [35m5493[0;39m [2m---[0;39m [2m[      Thread-54][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+
+2019-06-17 22:53:27.560	INFO	  .   ____          _            __ _ _
+2019-06-17 22:53:27.560	INFO	 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2019-06-17 22:53:27.560	INFO	( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2019-06-17 22:53:27.560	INFO	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2019-06-17 22:53:27.560	INFO	  '  |____| .__|_| |_|_| |_\__, | / / / /
+2019-06-17 22:53:27.560	INFO	 =========|_|==============|___/=/_/_/_/
+2019-06-17 22:53:27.561	INFO	[32m :: Spring Boot :: [39m      [2m (v2.0.3.RELEASE)[0;39m
+2019-06-17 22:53:37.720	INFO	[2m2019-06-17 22:53:37.718[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.v.VisitsServerApplication         [0;39m [2m:[0;39m Starting VisitsServerApplication on promote.cache-dns.local with PID 5529 (/Users/yaya/Desktop/tarsproject/visits-server/target/classes started by yaya in /Users/yaya/Desktop/tarsproject/visits-server)
+
+2019-06-17 22:53:37.720	INFO	[2m2019-06-17 22:53:37.720[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.v.VisitsServerApplication         [0;39m [2m:[0;39m The following profiles are active: production
+
+2019-06-17 22:53:37.750	INFO	[2m2019-06-17 22:53:37.750[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bf7ca37: startup date [Mon Jun 17 22:53:37 CST 2019]; root of context hierarchy
+
+2019-06-17 22:53:38.551	INFO	[2m2019-06-17 22:53:38.551[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23c314e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-17 22:53:38.572	INFO	[2m2019-06-17 22:53:38.572[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'com.qq.tars.spring.TarsManageServiceConfiguration' of type [com.qq.tars.spring.TarsManageServiceConfiguration$$EnhancerBySpringCGLIB$$fdea98dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-17 22:53:38.579	INFO	[2m2019-06-17 22:53:38.579[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'communicator' of type [com.qq.tars.client.Communicator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-17 22:53:38.696	INFO	[TARS] http server start at 8080
+2019-06-17 22:53:38.782	INFO	[2m2019-06-17 22:53:38.782[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+
+2019-06-17 22:53:38.800	INFO	[2m2019-06-17 22:53:38.799[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+
+2019-06-17 22:53:38.800	INFO	[2m2019-06-17 22:53:38.800[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet Engine: Apache Tomcat/8.5.31
+
+2019-06-17 22:53:38.803	INFO	[2m2019-06-17 22:53:38.803[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yaya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+
+2019-06-17 22:53:38.879	INFO	[2m2019-06-17 22:53:38.879[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+
+2019-06-17 22:53:38.879	INFO	[2m2019-06-17 22:53:38.879[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1132 ms
+
+2019-06-17 22:53:39.201	INFO	[2m2019-06-17 22:53:39.200[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+
+2019-06-17 22:53:39.201	INFO	[2m2019-06-17 22:53:39.201[0;39m [33m WARN[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.util.DriverDataSource [0;39m [2m:[0;39m Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+
+2019-06-17 22:53:39.459	INFO	[2m2019-06-17 22:53:39.459[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+
+2019-06-17 22:53:39.465	INFO	[2m2019-06-17 22:53:39.465[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+
+2019-06-17 22:53:39.473	INFO	[2m2019-06-17 22:53:39.473[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executing SQL script from URL [file:/Users/yaya/Desktop/tarsproject/visits-server/target/classes/db/hsqldb/schema.sql]
+
+2019-06-17 22:53:39.476	INFO	[2m2019-06-17 22:53:39.476[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executed SQL script from URL [file:/Users/yaya/Desktop/tarsproject/visits-server/target/classes/db/hsqldb/schema.sql] in 3 ms.
+
+2019-06-17 22:53:39.476	INFO	[2m2019-06-17 22:53:39.476[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executing SQL script from URL [file:/Users/yaya/Desktop/tarsproject/visits-server/target/classes/db/hsqldb/data.sql]
+
+2019-06-17 22:53:39.477	INFO	[2m2019-06-17 22:53:39.477[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executed SQL script from URL [file:/Users/yaya/Desktop/tarsproject/visits-server/target/classes/db/hsqldb/data.sql] in 1 ms.
+
+2019-06-17 22:53:39.697	INFO	[2m2019-06-17 22:53:39.697[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.ServletRegistrationBean [0;39m [2m:[0;39m Servlet dispatcherServlet mapped to [/]
+
+2019-06-17 22:53:39.701	INFO	[2m2019-06-17 22:53:39.700[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2019-06-17 22:53:39.701	INFO	[2m2019-06-17 22:53:39.701[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+2019-06-17 22:53:39.701	INFO	[2m2019-06-17 22:53:39.701[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+2019-06-17 22:53:39.701	INFO	[2m2019-06-17 22:53:39.701[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'requestContextFilter' to: [/*]
+
+2019-06-17 22:53:39.701	INFO	[2m2019-06-17 22:53:39.701[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'httpTraceFilter' to: [/*]
+
+2019-06-17 22:53:39.701	INFO	[2m2019-06-17 22:53:39.701[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2019-06-17 22:53:39.800	INFO	[2m2019-06-17 22:53:39.800[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Building JPA container EntityManagerFactory for persistence unit 'default'
+
+2019-06-17 22:53:39.812	INFO	[2m2019-06-17 22:53:39.812[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-06-17 22:53:39.867	INFO	[2m2019-06-17 22:53:39.867[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate Core {5.2.17.Final}
+
+2019-06-17 22:53:39.868	INFO	[2m2019-06-17 22:53:39.868[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.cfg.Environment           [0;39m [2m:[0;39m HHH000206: hibernate.properties not found
+
+2019-06-17 22:53:39.899	INFO	[2m2019-06-17 22:53:39.899[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+
+2019-06-17 22:53:39.986	INFO	[2m2019-06-17 22:53:39.986[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+
+2019-06-17 22:53:40.288	INFO	[2m2019-06-17 22:53:40.288[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2019-06-17 22:53:40.561	INFO	[2m2019-06-17 22:53:40.561[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m [2m:[0;39m Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+2019-06-17 22:53:40.797	INFO	[2m2019-06-17 22:53:40.797[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerAdapter[0;39m [2m:[0;39m Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bf7ca37: startup date [Mon Jun 17 22:53:37 CST 2019]; root of context hierarchy
+
+2019-06-17 22:53:40.821	INFO	[2m2019-06-17 22:53:40.821[0;39m [33m WARN[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36maWebConfiguration$JpaWebMvcConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2019-06-17 22:53:40.848	INFO	[2m2019-06-17 22:53:40.848[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/owners/*/pets/{petId}/visits],methods=[POST]}" onto com.mytars.petclinic.visitsserver.model.Visit com.mytars.petclinic.visitsserver.web.VisitResource.create(com.mytars.petclinic.visitsserver.model.Visit,int)
+
+2019-06-17 22:53:40.849	INFO	[2m2019-06-17 22:53:40.849[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/pets/visits],methods=[GET]}" onto com.mytars.petclinic.visitsserver.web.VisitResource$Visits com.mytars.petclinic.visitsserver.web.VisitResource.visitsMultiGet(java.util.List<java.lang.Integer>)
+
+2019-06-17 22:53:40.849	INFO	[2m2019-06-17 22:53:40.849[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/owners/*/pets/{petId}/visits],methods=[GET]}" onto java.util.List<com.mytars.petclinic.visitsserver.model.Visit> com.mytars.petclinic.visitsserver.web.VisitResource.visits(int)
+
+2019-06-17 22:53:40.853	INFO	[2m2019-06-17 22:53:40.853[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+
+2019-06-17 22:53:40.854	INFO	[2m2019-06-17 22:53:40.854[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2019-06-17 22:53:40.878	INFO	[2m2019-06-17 22:53:40.878[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m [2m:[0;39m Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+2019-06-17 22:53:40.878	INFO	[2m2019-06-17 22:53:40.878[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m [2m:[0;39m Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+2019-06-17 22:53:41.182	INFO	[2m2019-06-17 22:53:41.182[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2019-06-17 22:53:41.190	INFO	[2m2019-06-17 22:53:41.189[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.b.a.e.w.s.WebMvcEndpointHandlerMapping[0;39m [2m:[0;39m Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+
+2019-06-17 22:53:41.190	INFO	[2m2019-06-17 22:53:41.190[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.b.a.e.w.s.WebMvcEndpointHandlerMapping[0;39m [2m:[0;39m Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+
+2019-06-17 22:53:41.191	INFO	[2m2019-06-17 22:53:41.191[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.b.a.e.w.s.WebMvcEndpointHandlerMapping[0;39m [2m:[0;39m Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2019-06-17 22:53:41.232	INFO	[2m2019-06-17 22:53:41.232[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.j.e.a.AnnotationMBeanExporter       [0;39m [2m:[0;39m Registering beans for JMX exposure on startup
+
+2019-06-17 22:53:41.233	INFO	[2m2019-06-17 22:53:41.233[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.j.e.a.AnnotationMBeanExporter       [0;39m [2m:[0;39m Bean with name 'dataSource' has been autodetected for JMX exposure
+
+2019-06-17 22:53:41.239	INFO	[2m2019-06-17 22:53:41.239[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.j.e.a.AnnotationMBeanExporter       [0;39m [2m:[0;39m Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+
+2019-06-17 22:53:41.243	INFO	[2m2019-06-17 22:53:41.243[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.c.support.DefaultLifecycleProcessor [0;39m [2m:[0;39m Starting beans in phase 0
+
+2019-06-17 22:53:41.267	INFO	[SERVER] server starting at tcp -h 127.0.0.1 -p 18600 -t 60000...
+2019-06-17 22:53:41.294	INFO	[SERVER] server started at tcp -h 127.0.0.1 -p 18600 -t 60000...
+2019-06-17 22:53:41.296	INFO	[SERVER] server starting at tcp -h 127.0.0.1 -p 18601 -t 3000...
+2019-06-17 22:53:41.296	INFO	[SERVER] server started at tcp -h 127.0.0.1 -p 18601 -t 3000...
+2019-06-17 22:53:41.299	INFO	[SERVER] The application started successfully.
+2019-06-17 22:53:41.300	INFO	MaxConnCount=200000
+2019-06-17 22:53:41.301	INFO	The session manager service started...
+2019-06-17 22:53:41.301	INFO	[SERVER] server is ready...
+2019-06-17 22:53:41.319	INFO	[2m2019-06-17 22:53:41.319[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+
+2019-06-17 22:53:41.323	INFO	[2m2019-06-17 22:53:41.323[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.v.VisitsServerApplication         [0;39m [2m:[0;39m Started VisitsServerApplication in 24.029 seconds (JVM running for 29.772)
+
+2019-06-17 22:53:41.591	INFO	[2m2019-06-17 22:53:41.591[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[n(13)-127.0.0.1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+2019-06-17 22:53:41.591	INFO	[2m2019-06-17 22:53:41.591[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[n(13)-127.0.0.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m FrameworkServlet 'dispatcherServlet': initialization started
+
+2019-06-17 22:53:41.606	INFO	[2m2019-06-17 22:53:41.605[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[n(13)-127.0.0.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+
+2019-06-17 22:53:43.541	INFO	onSessionCreated: 1
+2019-06-17 22:53:51.626	INFO	onSessionDestoryed: 0
+2019-06-17 22:54:30.645	INFO	onSessionCreated: 1
+2019-06-17 22:56:06.308	INFO	onSessionCreated: 2
+2019-06-17 22:56:37.928	INFO	[2m2019-06-17 22:56:37.927[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[      Thread-53][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bf7ca37: startup date [Mon Jun 17 22:53:37 CST 2019]; root of context hierarchy
+
+2019-06-17 22:56:37.937	INFO	[2m2019-06-17 22:56:37.936[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[      Thread-53][0;39m [36mo.s.c.support.DefaultLifecycleProcessor [0;39m [2m:[0;39m Stopping beans in phase 0
+
+2019-06-17 22:56:41.312	INFO	The session has timed out. [from ip: 127.0.0.1 port: 49478]
+2019-06-17 22:57:07.941	INFO	[2m2019-06-17 22:57:07.941[0;39m [33m WARN[0;39m [35m5529[0;39m [2m---[0;39m [2m[      Thread-53][0;39m [36mo.s.c.support.DefaultLifecycleProcessor [0;39m [2m:[0;39m Failed to shut down 1 bean with phase value 0 within timeout of 30000: [applicationStartLifecycle]
+
+2019-06-17 22:57:07.942	INFO	[2m2019-06-17 22:57:07.942[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[      Thread-53][0;39m [36mo.s.j.e.a.AnnotationMBeanExporter       [0;39m [2m:[0;39m Unregistering JMX-exposed beans on shutdown
+
+2019-06-17 22:57:07.943	INFO	[2m2019-06-17 22:57:07.943[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[      Thread-53][0;39m [36mo.s.j.e.a.AnnotationMBeanExporter       [0;39m [2m:[0;39m Unregistering JMX-exposed beans
+
+2019-06-17 22:57:07.944	INFO	[2m2019-06-17 22:57:07.944[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[      Thread-53][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+
+2019-06-17 22:57:07.946	INFO	[2m2019-06-17 22:57:07.945[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[      Thread-53][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+
+2019-06-17 22:57:07.950	INFO	[2m2019-06-17 22:57:07.950[0;39m [32m INFO[0;39m [35m5529[0;39m [2m---[0;39m [2m[      Thread-53][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+

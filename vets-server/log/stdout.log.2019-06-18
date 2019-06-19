@@ -1,0 +1,404 @@
+2019-06-18 17:05:15.366	INFO	  .   ____          _            __ _ _
+2019-06-18 17:05:15.366	INFO	 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2019-06-18 17:05:15.366	INFO	( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2019-06-18 17:05:15.366	INFO	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2019-06-18 17:05:15.366	INFO	  '  |____| .__|_| |_|_| |_\__, | / / / /
+2019-06-18 17:05:15.366	INFO	 =========|_|==============|___/=/_/_/_/
+2019-06-18 17:05:15.366	INFO	[32m :: Spring Boot :: [39m      [2m (v2.0.3.RELEASE)[0;39m
+2019-06-18 17:05:15.422	INFO	[2m2019-06-18 17:05:15.420[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.vetsserver.VetsServerApplication  [0;39m [2m:[0;39m Starting VetsServerApplication on promote.cache-dns.local with PID 962 (/Users/yaya/Desktop/tarsproject/vets-server/target/classes started by yaya in /Users/yaya/Desktop/tarsproject/vets-server)
+
+2019-06-18 17:05:15.423	INFO	[2m2019-06-18 17:05:15.422[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.vetsserver.VetsServerApplication  [0;39m [2m:[0;39m The following profiles are active: production
+
+2019-06-18 17:05:15.470	INFO	[2m2019-06-18 17:05:15.470[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@505a9d7c: startup date [Tue Jun 18 17:05:15 CST 2019]; root of context hierarchy
+
+2019-06-18 17:05:16.723	INFO	[2m2019-06-18 17:05:16.723[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93bd22a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-18 17:05:16.817	INFO	[2m2019-06-18 17:05:16.817[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'com.qq.tars.spring.TarsManageServiceConfiguration' of type [com.qq.tars.spring.TarsManageServiceConfiguration$$EnhancerBySpringCGLIB$$6de4a6a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-18 17:05:16.826	INFO	[2m2019-06-18 17:05:16.826[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'communicator' of type [com.qq.tars.client.Communicator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-18 17:05:16.984	INFO	[TARS] http server start at 8080
+2019-06-18 17:05:17.103	INFO	[2m2019-06-18 17:05:17.103[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+
+2019-06-18 17:05:17.132	INFO	[2m2019-06-18 17:05:17.131[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+
+2019-06-18 17:05:17.132	INFO	[2m2019-06-18 17:05:17.132[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet Engine: Apache Tomcat/8.5.31
+
+2019-06-18 17:05:17.138	INFO	[2m2019-06-18 17:05:17.138[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yaya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+
+2019-06-18 17:05:17.228	INFO	[2m2019-06-18 17:05:17.228[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+
+2019-06-18 17:05:17.228	INFO	[2m2019-06-18 17:05:17.228[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1768 ms
+
+2019-06-18 17:05:17.778	INFO	[2m2019-06-18 17:05:17.777[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+
+2019-06-18 17:05:17.784	INFO	[2m2019-06-18 17:05:17.784[0;39m [33m WARN[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.util.DriverDataSource [0;39m [2m:[0;39m Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+
+2019-06-18 17:05:18.22	INFO	[2m2019-06-18 17:05:18.021[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+
+2019-06-18 17:05:18.28	INFO	[2m2019-06-18 17:05:18.028[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+
+2019-06-18 17:05:18.39	INFO	[2m2019-06-18 17:05:18.038[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executing SQL script from URL [file:/Users/yaya/Desktop/tarsproject/vets-server/target/classes/db/hsqldb/schema.sql]
+
+2019-06-18 17:05:18.43	INFO	[2m2019-06-18 17:05:18.043[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executed SQL script from URL [file:/Users/yaya/Desktop/tarsproject/vets-server/target/classes/db/hsqldb/schema.sql] in 4 ms.
+
+2019-06-18 17:05:18.44	INFO	[2m2019-06-18 17:05:18.044[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executing SQL script from URL [file:/Users/yaya/Desktop/tarsproject/vets-server/target/classes/db/hsqldb/data.sql]
+
+2019-06-18 17:05:18.46	INFO	[2m2019-06-18 17:05:18.046[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executed SQL script from URL [file:/Users/yaya/Desktop/tarsproject/vets-server/target/classes/db/hsqldb/data.sql] in 2 ms.
+
+2019-06-18 17:05:18.344	INFO	[2m2019-06-18 17:05:18.344[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.ServletRegistrationBean [0;39m [2m:[0;39m Servlet dispatcherServlet mapped to [/]
+
+2019-06-18 17:05:18.348	INFO	[2m2019-06-18 17:05:18.348[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2019-06-18 17:05:18.348	INFO	[2m2019-06-18 17:05:18.348[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+2019-06-18 17:05:18.348	INFO	[2m2019-06-18 17:05:18.348[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+2019-06-18 17:05:18.348	INFO	[2m2019-06-18 17:05:18.348[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'requestContextFilter' to: [/*]
+
+2019-06-18 17:05:18.348	INFO	[2m2019-06-18 17:05:18.348[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'httpTraceFilter' to: [/*]
+
+2019-06-18 17:05:18.348	INFO	[2m2019-06-18 17:05:18.348[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2019-06-18 17:05:18.456	INFO	[2m2019-06-18 17:05:18.456[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Building JPA container EntityManagerFactory for persistence unit 'default'
+
+2019-06-18 17:05:18.466	INFO	[2m2019-06-18 17:05:18.466[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-06-18 17:05:18.512	INFO	[2m2019-06-18 17:05:18.512[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate Core {5.2.17.Final}
+
+2019-06-18 17:05:18.513	INFO	[2m2019-06-18 17:05:18.513[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.cfg.Environment           [0;39m [2m:[0;39m HHH000206: hibernate.properties not found
+
+2019-06-18 17:05:18.549	INFO	[2m2019-06-18 17:05:18.549[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+
+2019-06-18 17:05:18.633	INFO	[2m2019-06-18 17:05:18.633[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+
+2019-06-18 17:05:18.897	INFO	[2m2019-06-18 17:05:18.897[0;39m [33m WARN[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+
+2019-06-18 17:05:18.898	INFO	[2m2019-06-18 17:05:18.897[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+
+2019-06-18 17:05:18.901	INFO	[2m2019-06-18 17:05:18.901[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+
+2019-06-18 17:05:18.905	INFO	[2m2019-06-18 17:05:18.905[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Stopping service [Tomcat]
+
+2019-06-18 17:05:18.925	INFO	[2m2019-06-18 17:05:18.924[0;39m [32m INFO[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mConditionEvaluationReportLoggingListener[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+2019-06-18 17:05:18.941	INFO	[2m2019-06-18 17:05:18.940[0;39m [31mERROR[0;39m [35m962[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.boot.SpringApplication              [0;39m [2m:[0;39m Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1708) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:581) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at com.mytars.petclinic.vetsserver.VetsServerApplication.main(VetsServerApplication.java:15) ~[classes/:na]
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402) ~[spring-orm-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1767) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1704) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	... 16 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:129) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:300) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:892) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	... 20 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to instantiate default tuplizer [org.hibernate.tuple.entity.PojoEntityTuplizer]
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:91) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructDefaultTuplizer(EntityTuplizerFactory.java:116) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:382) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:519) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:124) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	... 28 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:88) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	... 37 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at javassist.util.proxy.SecurityActions.setAccessible(SecurityActions.java:103) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.DefineClassHelper.toClass3(DefineClassHelper.java:151) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.DefineClassHelper.toClass2(DefineClassHelper.java:134) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.DefineClassHelper.toClass(DefineClassHelper.java:95) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.FactoryHelper.toClass(FactoryHelper.java:131) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.ProxyFactory.createClass3(ProxyFactory.java:530) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.ProxyFactory.createClass2(ProxyFactory.java:515) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.ProxyFactory.createClass1(ProxyFactory.java:451) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.ProxyFactory.createClass(ProxyFactory.java:422) ~[javassist-3.22.0-GA.jar:na]
+	at org.hibernate.proxy.pojo.javassist.JavassistProxyFactory.postInstantiate(JavassistProxyFactory.java:75) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactory(PojoEntityTuplizer.java:162) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.<init>(AbstractEntityTuplizer.java:156) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.<init>(PojoEntityTuplizer.java:58) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	... 42 common frames omitted
+
+
+2019-06-18 17:52:58.291	INFO	  .   ____          _            __ _ _
+2019-06-18 17:52:58.291	INFO	 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2019-06-18 17:52:58.291	INFO	( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2019-06-18 17:52:58.291	INFO	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2019-06-18 17:52:58.291	INFO	  '  |____| .__|_| |_|_| |_\__, | / / / /
+2019-06-18 17:52:58.291	INFO	 =========|_|==============|___/=/_/_/_/
+2019-06-18 17:52:58.291	INFO	[32m :: Spring Boot :: [39m      [2m (v2.1.5.RELEASE)[0;39m
+2019-06-18 17:52:58.343	INFO	[2m2019-06-18 17:52:58.341[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.vetsserver.VetsServerApplication  [0;39m [2m:[0;39m Starting VetsServerApplication on promote.cache-dns.local with PID 1166 (/Users/yaya/Desktop/tarsproject/vets-server/target/classes started by yaya in /Users/yaya/Desktop/tarsproject/vets-server)
+
+2019-06-18 17:52:58.343	INFO	[2m2019-06-18 17:52:58.343[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.vetsserver.VetsServerApplication  [0;39m [2m:[0;39m The following profiles are active: production
+
+2019-06-18 17:52:59.78	INFO	[2m2019-06-18 17:52:59.077[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2019-06-18 17:52:59.143	INFO	[2m2019-06-18 17:52:59.143[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 53ms. Found 1 repository interfaces.
+
+2019-06-18 17:52:59.467	INFO	[2m2019-06-18 17:52:59.467[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$56d215cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-18 17:52:59.601	INFO	[2m2019-06-18 17:52:59.601[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'com.qq.tars.spring.TarsManageServiceConfiguration' of type [com.qq.tars.spring.TarsManageServiceConfiguration$$EnhancerBySpringCGLIB$$30f999c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-18 17:52:59.609	INFO	[2m2019-06-18 17:52:59.609[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'communicator' of type [com.qq.tars.client.Communicator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-18 17:52:59.711	INFO	[TARS] http server start at 8080
+2019-06-18 17:52:59.835	INFO	[2m2019-06-18 17:52:59.835[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+
+2019-06-18 17:52:59.864	INFO	[2m2019-06-18 17:52:59.863[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+
+2019-06-18 17:52:59.864	INFO	[2m2019-06-18 17:52:59.864[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.19]
+
+2019-06-18 17:52:59.953	INFO	[2m2019-06-18 17:52:59.953[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+
+2019-06-18 17:52:59.953	INFO	[2m2019-06-18 17:52:59.953[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1583 ms
+
+2019-06-18 17:53:00.373	INFO	[2m2019-06-18 17:53:00.373[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.ehcache.core.EhcacheManager         [0;39m [2m:[0;39m Cache 'vets' created in EhcacheManager.
+
+2019-06-18 17:53:00.448	INFO	[2m2019-06-18 17:53:00.448[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+
+2019-06-18 17:53:00.455	INFO	[2m2019-06-18 17:53:00.455[0;39m [33m WARN[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.util.DriverDataSource [0;39m [2m:[0;39m Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+
+2019-06-18 17:53:00.609	INFO	[2m2019-06-18 17:53:00.609[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+
+2019-06-18 17:53:00.617	INFO	[2m2019-06-18 17:53:00.617[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+
+2019-06-18 17:53:00.956	INFO	[2m2019-06-18 17:53:00.956[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-06-18 17:53:01.75	INFO	[2m2019-06-18 17:53:01.075[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate Core {5.3.10.Final}
+
+2019-06-18 17:53:01.76	INFO	[2m2019-06-18 17:53:01.076[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.cfg.Environment           [0;39m [2m:[0;39m HHH000206: hibernate.properties not found
+
+2019-06-18 17:53:01.335	INFO	[2m2019-06-18 17:53:01.334[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+2019-06-18 17:53:01.527	INFO	[2m2019-06-18 17:53:01.527[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+
+2019-06-18 17:53:02.338	INFO	[2m2019-06-18 17:53:02.338[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2019-06-18 17:53:02.759	INFO	[2m2019-06-18 17:53:02.759[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-06-18 17:53:02.786	INFO	[2m2019-06-18 17:53:02.785[0;39m [33m WARN[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36maWebConfiguration$JpaWebMvcConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2019-06-18 17:53:03.61	INFO	[2m2019-06-18 17:53:03.061[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2019-06-18 17:53:03.117	INFO	[SERVER] server starting at tcp -h 127.0.0.1 -p 18600 -t 60000...
+2019-06-18 17:53:03.124	INFO	[SERVER] server started at tcp -h 127.0.0.1 -p 18600 -t 60000...
+2019-06-18 17:53:03.126	INFO	[SERVER] server starting at tcp -h 127.0.0.1 -p 18601 -t 3000...
+2019-06-18 17:53:03.126	INFO	[SERVER] server started at tcp -h 127.0.0.1 -p 18601 -t 3000...
+2019-06-18 17:53:03.132	INFO	[SERVER] The application started successfully.
+2019-06-18 17:53:03.133	INFO	MaxConnCount=200000
+2019-06-18 17:53:03.134	INFO	The session manager service started...
+2019-06-18 17:53:03.134	INFO	[SERVER] server is ready...
+2019-06-18 17:53:03.156	INFO	[2m2019-06-18 17:53:03.156[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+
+2019-06-18 17:53:03.160	INFO	[2m2019-06-18 17:53:03.160[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.vetsserver.VetsServerApplication  [0;39m [2m:[0;39m Started VetsServerApplication in 5.135 seconds (JVM running for 10.937)
+
+2019-06-18 17:53:03.438	INFO	[2m2019-06-18 17:53:03.437[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[on(4)-127.0.0.1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-06-18 17:53:03.438	INFO	[2m2019-06-18 17:53:03.438[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[on(4)-127.0.0.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+
+2019-06-18 17:53:03.447	INFO	[2m2019-06-18 17:53:03.447[0;39m [32m INFO[0;39m [35m1166[0;39m [2m---[0;39m [2m[on(4)-127.0.0.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 9 ms
+
+2019-06-18 18:09:33.584	INFO	  .   ____          _            __ _ _
+2019-06-18 18:09:33.584	INFO	 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2019-06-18 18:09:33.584	INFO	( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2019-06-18 18:09:33.584	INFO	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2019-06-18 18:09:33.584	INFO	  '  |____| .__|_| |_|_| |_\__, | / / / /
+2019-06-18 18:09:33.584	INFO	 =========|_|==============|___/=/_/_/_/
+2019-06-18 18:09:33.584	INFO	[32m :: Spring Boot :: [39m      [2m (v2.0.3.RELEASE)[0;39m
+2019-06-18 18:09:33.626	INFO	[2m2019-06-18 18:09:33.625[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.vetsserver.VetsServerApplication  [0;39m [2m:[0;39m Starting VetsServerApplication on promote.cache-dns.local with PID 1287 (/Users/yaya/Desktop/tarsproject/vets-server/target/classes started by yaya in /Users/yaya/Desktop/tarsproject/vets-server)
+
+2019-06-18 18:09:33.627	INFO	[2m2019-06-18 18:09:33.627[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.m.p.vetsserver.VetsServerApplication  [0;39m [2m:[0;39m The following profiles are active: production
+
+2019-06-18 18:09:33.664	INFO	[2m2019-06-18 18:09:33.664[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4bff64c2: startup date [Tue Jun 18 18:09:33 CST 2019]; root of context hierarchy
+
+2019-06-18 18:09:34.833	INFO	[2m2019-06-18 18:09:34.833[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7472485] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-18 18:09:34.909	INFO	[2m2019-06-18 18:09:34.909[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'com.qq.tars.spring.TarsManageServiceConfiguration' of type [com.qq.tars.spring.TarsManageServiceConfiguration$$EnhancerBySpringCGLIB$$e16ea880] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-18 18:09:34.918	INFO	[2m2019-06-18 18:09:34.918[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'communicator' of type [com.qq.tars.client.Communicator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-06-18 18:09:35.56	INFO	[TARS] http server start at 8080
+2019-06-18 18:09:35.164	INFO	[2m2019-06-18 18:09:35.164[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+
+2019-06-18 18:09:35.186	INFO	[2m2019-06-18 18:09:35.185[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+
+2019-06-18 18:09:35.186	INFO	[2m2019-06-18 18:09:35.186[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet Engine: Apache Tomcat/8.5.31
+
+2019-06-18 18:09:35.191	INFO	[2m2019-06-18 18:09:35.190[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yaya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+
+2019-06-18 18:09:35.277	INFO	[2m2019-06-18 18:09:35.277[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+
+2019-06-18 18:09:35.277	INFO	[2m2019-06-18 18:09:35.277[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1625 ms
+
+2019-06-18 18:09:35.704	INFO	[2m2019-06-18 18:09:35.703[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+
+2019-06-18 18:09:35.709	INFO	[2m2019-06-18 18:09:35.709[0;39m [33m WARN[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.util.DriverDataSource [0;39m [2m:[0;39m Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+
+2019-06-18 18:09:35.903	INFO	[2m2019-06-18 18:09:35.903[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+
+2019-06-18 18:09:35.909	INFO	[2m2019-06-18 18:09:35.909[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+
+2019-06-18 18:09:35.921	INFO	[2m2019-06-18 18:09:35.921[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executing SQL script from URL [file:/Users/yaya/Desktop/tarsproject/vets-server/target/classes/db/hsqldb/schema.sql]
+
+2019-06-18 18:09:35.926	INFO	[2m2019-06-18 18:09:35.926[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executed SQL script from URL [file:/Users/yaya/Desktop/tarsproject/vets-server/target/classes/db/hsqldb/schema.sql] in 5 ms.
+
+2019-06-18 18:09:35.927	INFO	[2m2019-06-18 18:09:35.927[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executing SQL script from URL [file:/Users/yaya/Desktop/tarsproject/vets-server/target/classes/db/hsqldb/data.sql]
+
+2019-06-18 18:09:35.930	INFO	[2m2019-06-18 18:09:35.930[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.jdbc.datasource.init.ScriptUtils    [0;39m [2m:[0;39m Executed SQL script from URL [file:/Users/yaya/Desktop/tarsproject/vets-server/target/classes/db/hsqldb/data.sql] in 3 ms.
+
+2019-06-18 18:09:36.271	INFO	[2m2019-06-18 18:09:36.271[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.ServletRegistrationBean [0;39m [2m:[0;39m Servlet dispatcherServlet mapped to [/]
+
+2019-06-18 18:09:36.275	INFO	[2m2019-06-18 18:09:36.274[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2019-06-18 18:09:36.275	INFO	[2m2019-06-18 18:09:36.275[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+2019-06-18 18:09:36.275	INFO	[2m2019-06-18 18:09:36.275[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+2019-06-18 18:09:36.275	INFO	[2m2019-06-18 18:09:36.275[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'requestContextFilter' to: [/*]
+
+2019-06-18 18:09:36.275	INFO	[2m2019-06-18 18:09:36.275[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'httpTraceFilter' to: [/*]
+
+2019-06-18 18:09:36.275	INFO	[2m2019-06-18 18:09:36.275[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[ost-startStop-1][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2019-06-18 18:09:36.371	INFO	[2m2019-06-18 18:09:36.371[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Building JPA container EntityManagerFactory for persistence unit 'default'
+
+2019-06-18 18:09:36.380	INFO	[2m2019-06-18 18:09:36.380[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+2019-06-18 18:09:36.426	INFO	[2m2019-06-18 18:09:36.425[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate Core {5.2.17.Final}
+
+2019-06-18 18:09:36.427	INFO	[2m2019-06-18 18:09:36.426[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.cfg.Environment           [0;39m [2m:[0;39m HHH000206: hibernate.properties not found
+
+2019-06-18 18:09:36.456	INFO	[2m2019-06-18 18:09:36.455[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+
+2019-06-18 18:09:36.535	INFO	[2m2019-06-18 18:09:36.535[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+
+2019-06-18 18:09:36.917	INFO	[2m2019-06-18 18:09:36.917[0;39m [33m WARN[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+
+2019-06-18 18:09:36.918	INFO	[2m2019-06-18 18:09:36.918[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+
+2019-06-18 18:09:36.923	INFO	[2m2019-06-18 18:09:36.922[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+
+2019-06-18 18:09:36.931	INFO	[2m2019-06-18 18:09:36.931[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Stopping service [Tomcat]
+
+2019-06-18 18:09:36.951	INFO	[2m2019-06-18 18:09:36.951[0;39m [32m INFO[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mConditionEvaluationReportLoggingListener[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+2019-06-18 18:09:36.965	INFO	[2m2019-06-18 18:09:36.964[0;39m [31mERROR[0;39m [35m1287[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.boot.SpringApplication              [0;39m [2m:[0;39m Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1708) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:581) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at com.mytars.petclinic.vetsserver.VetsServerApplication.main(VetsServerApplication.java:16) ~[classes/:na]
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402) ~[spring-orm-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1767) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1704) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	... 16 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:129) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:300) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:892) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	... 20 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to instantiate default tuplizer [org.hibernate.tuple.entity.PojoEntityTuplizer]
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:91) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructDefaultTuplizer(EntityTuplizerFactory.java:116) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:382) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:519) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:124) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	... 28 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:88) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	... 37 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at javassist.util.proxy.SecurityActions.setAccessible(SecurityActions.java:103) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.DefineClassHelper.toClass3(DefineClassHelper.java:151) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.DefineClassHelper.toClass2(DefineClassHelper.java:134) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.DefineClassHelper.toClass(DefineClassHelper.java:95) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.FactoryHelper.toClass(FactoryHelper.java:131) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.ProxyFactory.createClass3(ProxyFactory.java:530) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.ProxyFactory.createClass2(ProxyFactory.java:515) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.ProxyFactory.createClass1(ProxyFactory.java:451) ~[javassist-3.22.0-GA.jar:na]
+	at javassist.util.proxy.ProxyFactory.createClass(ProxyFactory.java:422) ~[javassist-3.22.0-GA.jar:na]
+	at org.hibernate.proxy.pojo.javassist.JavassistProxyFactory.postInstantiate(JavassistProxyFactory.java:75) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactory(PojoEntityTuplizer.java:162) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.<init>(AbstractEntityTuplizer.java:156) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.<init>(PojoEntityTuplizer.java:58) ~[hibernate-core-5.2.17.Final.jar:5.2.17.Final]
+	... 42 common frames omitted
+
+
