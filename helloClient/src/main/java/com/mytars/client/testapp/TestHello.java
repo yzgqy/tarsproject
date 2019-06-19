@@ -18,7 +18,7 @@ public class TestHello {
         Communicator communicator = CommunicatorFactory.getInstance().getCommunicator(cfg);
 //        TestApp.helloServer.HelloObj	tcp -h 172.17.0.3 -t 60000 -p 18600 -e 0
 //        HelloPrx proxy = communicator.stringToProxy(HelloPrx.class, "TestApp.helloServer.HelloObj@tcp -h 172.16.196.129 -p 18600 -t 60000");
-        HelloPrx proxy = communicator.stringToProxy(HelloPrx.class, "TestApp.HelloServer.HelloObj@tcp -h 127.0.0.1 -p 18601 -t 3000");
+        HelloPrx proxy = communicator.stringToProxy(HelloPrx.class, "TestApp.HelloServer.HelloObj@tcp -h 127.0.0.1 -p 18603 -t 3000");
 
         //同步调用
         String ret = proxy.hello(105, "Hello World");

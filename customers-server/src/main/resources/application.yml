@@ -5,10 +5,14 @@ spring:
     cache-names: customers
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
+    show-sql: true
   datasource:
     schema: classpath*:db/hsqldb/schema.sql
     data: classpath*:db/hsqldb/data.sql
+    url: jdbc:hsqldb:mem:test
+    username: sa
+    password:
 
 vets:
   cache:

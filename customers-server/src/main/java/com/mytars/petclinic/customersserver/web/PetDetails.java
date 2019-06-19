@@ -38,7 +38,10 @@ public class PetDetails {
         tarsPetDetail.setId((int) this.id);
         tarsPetDetail.setName(this.name);
         tarsPetDetail.setOwner(this.owner);
-        tarsPetDetail.setType(this.type.toTarsType());
+        if(this.type!=null)
+            tarsPetDetail.setType(this.type.toTarsType());
+        else
+            tarsPetDetail.setType(null);
         return tarsPetDetail;
     }
 }

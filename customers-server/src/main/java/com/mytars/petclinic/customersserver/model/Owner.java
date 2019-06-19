@@ -31,11 +31,17 @@ public class Owner {
         setAddress(tarsOwener.getAddress());
         setCity(tarsOwener.getCity());
         setFirstName(tarsOwener.getFirstName());
+        setLastName(tarsOwener.getLastName());
         setTelephone(tarsOwener.getTelephone());
         List<com.mytars.petclinic.customersserver.tars.customers.Pet> tarsPets = tarsOwener.getPets();
-        for(com.mytars.petclinic.customersserver.tars.customers.Pet tarspet:tarsPets){
-            addPet(new Pet(tarspet));
-        }
+        if(tarsPets!=null)
+            for(com.mytars.petclinic.customersserver.tars.customers.Pet tarspet:tarsPets){
+                addPet(new Pet(tarspet));
+            }
+    }
+
+    public Owner(){
+
     }
 
     @Id
@@ -150,12 +156,12 @@ public class Owner {
         tarsOwner.setLastName(this.lastName);
         tarsOwner.setTelephone(this.telephone);
         List<com.mytars.petclinic.customersserver.tars.customers.Pet> tarsPets = new ArrayList<>();
-        for(Pet pet:this.pets){
-            tarsPets.add(pet.toTarsPet());
-        }
+        if(this.pets!=null)
+            for(Pet pet:this.pets){
+                tarsPets.add(pet.toTarsPet());
+            }
         tarsOwner.setPets(tarsPets);
 
         return tarsOwner;
     }
 }
-

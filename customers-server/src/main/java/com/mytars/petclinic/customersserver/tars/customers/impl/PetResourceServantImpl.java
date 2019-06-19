@@ -1,5 +1,6 @@
 package com.mytars.petclinic.customersserver.tars.customers.impl;
 
+import com.mytars.petclinic.customersserver.model.Owner;
 import com.mytars.petclinic.customersserver.model.OwnerRepository;
 import com.mytars.petclinic.customersserver.model.PetRepository;
 import com.mytars.petclinic.customersserver.tars.customers.*;
@@ -8,13 +9,14 @@ import com.qq.tars.spring.annotation.TarsServant;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.ArrayList;
+;import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+
 /**
  * @Auther: yaya
- * @Date: 2019/6/18 11:08
+ * @Date: 2019/6/19 16:02
  * @Description:
  */
 @RequiredArgsConstructor
@@ -37,8 +39,8 @@ public class PetResourceServantImpl implements PetResourceServant {
     @Override
     public Pet processCreationForm(PetRequest petRequest, int ownerId) {
         final com.mytars.petclinic.customersserver.model.Pet pet = new com.mytars.petclinic.customersserver.model.Pet();
-        final Optional<com.mytars.petclinic.customersserver.model.Owner> optionalOwner = ownerRepository.findById(ownerId);
-        com.mytars.petclinic.customersserver.model.Owner owner = optionalOwner.orElseThrow(() -> new ResourceNotFoundException("Owner "+ownerId+" not found"));
+        final Optional<Owner> optionalOwner = ownerRepository.findById(ownerId);
+        Owner owner = optionalOwner.orElseThrow(() -> new ResourceNotFoundException("Owner "+ownerId+" not found"));
         owner.addPet(pet);
         return save(pet, petRequest).toTarsPet();
     }
@@ -54,8 +56,10 @@ public class PetResourceServantImpl implements PetResourceServant {
 
     @Override
     public PetDetails findPet(int petId) {
-        com.mytars.petclinic.customersserver.web.PetDetails detailModels = new com.mytars.petclinic.customersserver.web.PetDetails(findPetById(petId));
-
+        com.mytars.petclinic.customersserver.model.Pet petmodel = findPetById(petId);
+        if(petmodel ==  null)
+            return null;
+        com.mytars.petclinic.customersserver.web.PetDetails detailModels = new com.mytars.petclinic.customersserver.web.PetDetails(petmodel);
         return detailModels.toTarsPetDetail();
     }
 
@@ -76,8 +80,10 @@ public class PetResourceServantImpl implements PetResourceServant {
     private com.mytars.petclinic.customersserver.model.Pet findPetById(int petId) {
         Optional<com.mytars.petclinic.customersserver.model.Pet> pet = petRepository.findById(petId);
         if (!pet.isPresent()) {
-            throw new ResourceNotFoundException("Pet "+petId+" not found");
+//            throw new ResourceNotFoundException("Pet "+petId+" not found");
+            return null;
         }
         return pet.get();
+//        return pet.orElse(null);
     }
 }

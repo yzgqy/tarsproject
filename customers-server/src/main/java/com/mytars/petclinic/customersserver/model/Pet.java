@@ -26,7 +26,11 @@ public class Pet {
 
     public Pet(com.mytars.petclinic.customersserver.tars.customers.Pet tarsPet){
         this.id = tarsPet.getId();
-        setType(new PetType(tarsPet.getPetType()));
+        com.mytars.petclinic.customersserver.tars.customers.PetType tarsType = tarsPet.getPetType();
+        if(tarsType == null)
+            setType(null);
+        else
+            setType(new PetType(tarsPet.getPetType()));
         setName(tarsPet.getName());
         setBirthDate(tarsPet.getBirthDate());
     }
@@ -119,7 +123,10 @@ public class Pet {
         tarsPet.setBirthDate(dateString);
         tarsPet.setId(this.id);
         tarsPet.setName(this.name);
-        tarsPet.setPetType(this.type.toTarsType());
+        if(this.type!=null)
+            tarsPet.setPetType(this.type.toTarsType());
+        else
+            tarsPet.setPetType(null);
         return tarsPet;
     }
 }

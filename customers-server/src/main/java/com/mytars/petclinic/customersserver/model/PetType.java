@@ -14,6 +14,9 @@ public class PetType {
         setId(tarsType.getId());
         setName(tarsType.getName());
     }
+    public PetType(){
+
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

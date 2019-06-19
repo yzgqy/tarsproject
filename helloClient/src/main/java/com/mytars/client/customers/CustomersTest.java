@@ -1,8 +1,5 @@
 package com.mytars.client.customers;
 
-import com.mytars.client.visits.Visit;
-import com.mytars.client.visits.VisitResourcePrx;
-import com.mytars.client.visits.Visits;
 import com.qq.tars.client.Communicator;
 import com.qq.tars.client.CommunicatorConfig;
 import com.qq.tars.client.CommunicatorFactory;
@@ -19,8 +16,7 @@ public class CustomersTest {
     public static void main(String[] args) {
         CommunicatorConfig cfg = new CommunicatorConfig();
         Communicator communicator = CommunicatorFactory.getInstance().getCommunicator(cfg);
-        OwnerResourcePrx ownerProxy = communicator.stringToProxy(OwnerResourcePrx.class, "PetclinicApp.CustomersServer.OwnersObj@tcp -h 127.0.0.1 -p 18600 -t 6000");
-//        PetResourcePrx petProxy = communicator.stringToProxy(PetResourcePrx.class, "PetclinicApp.CustomersServer.PetsObj@tcp -h 127.0.0.1 -p 18602 -t 6000");
+        OwnerResourcePrx ownerProxy = communicator.stringToProxy(OwnerResourcePrx.class, "PetclinicApp.CustomersServer.OwnersObj@tcp -h 127.0.0.1 -p 18600 -t 60000");
         Owner ownerT = new Owner();
         ownerT.setAddress("Address");
         ownerT.setCity("City");
@@ -35,34 +31,36 @@ public class CustomersTest {
         pets.add(pet);
         ownerT.setPets(pets);
         Owner owner1 = ownerProxy.createOwner(ownerT);
-        System.out.println(owner1);
+        System.out.println("1 "+owner1);
 
         Owner owner2 = ownerProxy.findOwner(1);
-        System.out.println(owner2);
+        System.out.println("2 "+owner2);
 
         List<Owner> owners = ownerProxy.findAll();
-        System.out.println(owners);
+        System.out.println("3 "+owners);
 
         ownerProxy.updateOwner(1,ownerT);
 
         Owner owner3 = ownerProxy.findOwner(1);
-        System.out.println(owner3);
+        System.out.println("4 "+owner3);
 
-//        List<PetType> types = petProxy.getPetTypes();
-//        System.out.println(types);
-//
-//        PetRequest petRequest = new PetRequest();
-//        petRequest.setBirthDate("2018-03-21");
-//        petRequest.setName("xiaoming");
-//        petRequest.setTypeId(2);
-//        Pet pet1 =petProxy.processCreationForm(petRequest,1);
-//        System.out.println(pet1);
-//
-//        petRequest.setId(1);
-//        petProxy.processUpdateForm(petRequest);
-//
-//        PetDetails d = petProxy.findPet(1);
-//        System.out.println(d);
+        PetResourcePrx petProxy = communicator.stringToProxy(PetResourcePrx.class, "PetclinicApp.CustomersServer.PetsObj@tcp -h 127.0.0.1 -p 18602");
+        List<PetType> types = petProxy.getPetTypes();
+        System.out.println("5 "+types);
+
+        PetRequest petRequest = new PetRequest();
+        petRequest.setBirthDate("2018-03-21");
+        petRequest.setName("xiaoming");
+        petRequest.setTypeId(2);
+        Pet pet1 =petProxy.processCreationForm(petRequest,1);
+        System.out.println("6 "+pet1);
+
+        petRequest.setId(1);
+        petRequest.setName("xiaomingaaa");
+        petProxy.processUpdateForm(petRequest);
+
+        PetDetails d = petProxy.findPet(1);
+        System.out.println("7 "+d);
 
 
     }
