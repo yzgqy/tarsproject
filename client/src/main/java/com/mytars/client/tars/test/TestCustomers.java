@@ -1,5 +1,6 @@
-package com.mytars.client.customers;
+package com.mytars.client.tars.test;
 
+import com.mytars.client.tars.customers.*;
 import com.qq.tars.client.Communicator;
 import com.qq.tars.client.CommunicatorConfig;
 import com.qq.tars.client.CommunicatorFactory;
@@ -9,10 +10,10 @@ import java.util.List;
 
 /**
  * @Auther: yaya
- * @Date: 2019/6/18 14:58
+ * @Date: 2019/6/21 11:05
  * @Description:
  */
-public class CustomersTest {
+public class TestCustomers {
     public static void main(String[] args) {
         CommunicatorConfig cfg = new CommunicatorConfig();
         Communicator communicator = CommunicatorFactory.getInstance().getCommunicator(cfg);

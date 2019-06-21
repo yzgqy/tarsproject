@@ -1,0 +1,67 @@
+module Customers
+{
+	struct PetType
+	{
+    	0 optional int id = 0;
+    	1 optional string name = "";
+	}
+
+	struct Pet
+	{
+	    0 optional int id = 0;
+	    1 optional string name = "";
+	    2 optional string birthDate = "";
+	    3 optional PetType petType = null;
+	}
+
+    struct Owner
+    {
+        0 optional int id = 0;
+        1 optional string firstName = "";
+        2 optional string lastName = "";
+        3 optional string address = "";
+        4 optional string city = "";
+        5 optional string telephone = "";
+        6 optional vector<Pet> pets = null;
+    }
+
+    struct PetDetails
+    {
+        0 optional int id = 0;
+        1 optional string name = "";
+        2 optional string owner = "";
+        3 optional string birthDate = "";
+        4 optional PetType type = null;
+    }
+
+    struct PetRequest
+    {
+        0 optional int id = 0;
+        1 optional string birthDate = "";
+        2 optional string name = "";
+        3 optional int typeId = 0;
+    }
+
+    interface OwnerResource
+    {
+    	Owner createOwner(Owner owner)
+
+    	Owner findOwner(int ownerId)
+
+    	vector<Owner> findAll()
+
+        void updateOwner(int ownerId,Owner ownerRequest)
+    }
+
+    interface PetResource
+    {
+        vector<PetType> getPetTypes()
+
+        Pet processCreationForm(PetRequest petRequest,int ownerId)
+
+        void processUpdateForm(PetRequest petRequest)
+
+        PetDetails findPet(int petId)
+    }
+
+}

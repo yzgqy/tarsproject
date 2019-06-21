@@ -5,10 +5,10 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.3.RELEASE</version>
+        <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.mytars.petclinic</groupId>
+    <groupId>com.mytars</groupId>
     <artifactId>client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>client</name>
@@ -16,20 +16,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <spring-boot.version>2.0.3.RELEASE</spring-boot.version>
     </properties>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <dependencies>
         <dependency>
@@ -45,10 +32,9 @@
 
         <dependency>
             <groupId>com.tencent.tars</groupId>
-            <artifactId>tars-spring-boot-starter</artifactId>
+            <artifactId>tars-client</artifactId>
             <version>1.6.1</version>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -66,7 +52,7 @@
                     <tars2JavaConfig>
                         <!-- tars文件位置 -->
                         <tarsFiles>
-                            <tarsFile>${basedir}/src/main/resources/vets.tars</tarsFile>
+                            <tarsFile>${basedir}/src/main/resources/tars/customers.tars</tarsFile>
                         </tarsFiles>
                         <!-- 源文件编码 -->
                         <tarsFileCharset>UTF-8</tarsFileCharset>
@@ -77,7 +63,7 @@
                         <!-- 生成的源代码目录 -->
                         <srcPath>${basedir}/src/main/java</srcPath>
                         <!-- 生成源代码包前缀 -->
-                        <packagePrefixName>com.mytars.petclinic.client.</packagePrefixName>
+                        <packagePrefixName>com.mytars.client.tars.</packagePrefixName>
                     </tars2JavaConfig>
                 </configuration>
             </plugin>

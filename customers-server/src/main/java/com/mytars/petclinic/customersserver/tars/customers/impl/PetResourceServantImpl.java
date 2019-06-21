@@ -57,6 +57,7 @@ public class PetResourceServantImpl implements PetResourceServant {
     @Override
     public PetDetails findPet(int petId) {
         com.mytars.petclinic.customersserver.model.Pet petmodel = findPetById(petId);
+        List<com.mytars.petclinic.customersserver.model.Pet> pets = petRepository.findAll();
         if(petmodel ==  null)
             return null;
         com.mytars.petclinic.customersserver.web.PetDetails detailModels = new com.mytars.petclinic.customersserver.web.PetDetails(petmodel);

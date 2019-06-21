@@ -1,7 +1,8 @@
-package com.mytars.client.visits;
+package com.mytars.client.tars.test;
 
-import com.mytars.client.vets.Vet;
-import com.mytars.client.vets.VetResourcePrx;
+import com.mytars.client.tars.visits.Visit;
+import com.mytars.client.tars.visits.VisitResourcePrx;
+import com.mytars.client.tars.visits.Visits;
 import com.qq.tars.client.Communicator;
 import com.qq.tars.client.CommunicatorConfig;
 import com.qq.tars.client.CommunicatorFactory;
@@ -11,7 +12,7 @@ import java.util.List;
 
 /**
  * @Auther: yaya
- * @Date: 2019/6/17 22:44
+ * @Date: 2019/6/21 11:05
  * @Description:
  */
 public class TestVisits {

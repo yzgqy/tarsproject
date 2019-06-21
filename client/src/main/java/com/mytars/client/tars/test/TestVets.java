@@ -1,5 +1,7 @@
-package com.mytars.client.vets;
+package com.mytars.client.tars.test;
 
+import com.mytars.client.tars.vets.Vet;
+import com.mytars.client.tars.vets.VetResourcePrx;
 import com.qq.tars.client.Communicator;
 import com.qq.tars.client.CommunicatorConfig;
 import com.qq.tars.client.CommunicatorFactory;
@@ -8,7 +10,7 @@ import java.util.List;
 
 /**
  * @Auther: yaya
- * @Date: 2019/6/17 21:32
+ * @Date: 2019/6/21 11:05
  * @Description:
  */
 public class TestVets {

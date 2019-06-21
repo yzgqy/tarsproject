@@ -1,4 +1,4 @@
-//package com.mytars.petclinic.visitsserver;
+//package com.mytars.client;
 //
 //import org.junit.Test;
 //import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@
 //
 //@RunWith(SpringRunner.class)
 //@SpringBootTest
-//public class VisitsServerApplicationTests {
+//public class ClientApplicationTests {
 //
 //    @Test
 //    public void contextLoads() {
