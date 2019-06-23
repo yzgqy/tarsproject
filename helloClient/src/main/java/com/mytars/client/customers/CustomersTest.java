@@ -17,7 +17,7 @@ public class CustomersTest {
         CommunicatorConfig cfg = new CommunicatorConfig();
         Communicator communicator = CommunicatorFactory.getInstance().getCommunicator(cfg);
 //        OwnerResourcePrx ownerProxy = communicator.stringToProxy(OwnerResourcePrx.class, "PetclinicApp.CustomersServer.OwnersObj@tcp -h 127.0.0.1 -p 18604 -t 60000");
-        OwnerResourcePrx ownerProxy = communicator.stringToProxy(OwnerResourcePrx.class, "PetclinicApp.CustomersServer.OwnersObj@tcp -h 172.16.196.131 -p 18602");
+        OwnerResourcePrx ownerProxy = communicator.stringToProxy(OwnerResourcePrx.class, "PetclinicApp.CustomersServer.OwnersObj@tcp -h 172.16.196.131 -p 18604");
 
         Owner ownerT = new Owner();
         ownerT.setAddress("Address");
@@ -61,10 +61,10 @@ public class CustomersTest {
         petRequest.setName("xiaomingaaa");
         petProxy.processUpdateForm(petRequest);
 
-        PetDetails d = petProxy.findPet(11);
+        PetDetails d = petProxy.findPet(1);
         System.out.println("7 "+d);
 
-        PetDetails d2 = petProxy.findPet(10);
+        PetDetails d2 = petProxy.findPet(1);
         System.out.println("8 "+d2);
 
 

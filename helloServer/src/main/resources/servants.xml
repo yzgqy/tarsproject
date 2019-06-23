@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<servants>-->
+<!--<servant name="HelloObj" protocol="tars" port="10020">-->
+<!--<home-api>com.qq.tars.server.testapp.HelloServant</home-api>-->
+<!--<home-class>com.qq.tars.server.testapp.HelloServantImpl</home-class>-->
+<!--</servant>-->
+<!--</servants>-->
+
+<servants>
+    <servant name="HelloObj" protocol="tars" port="18600">
+        <home-api>com.mytars.server.testapp.HelloServant</home-api>
+        <home-class>com.mytars.server.testapp.impl.HelloServantImpl</home-class>
+    </servant>
+
+    <listener>
+        <listener-class>com.mytars.server.AppStartListener</listener-class>
+    </listener>
+</servants>
